@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.italiana {
+  font-family: "Italiana", serif;
+}
+
+.gradientCard {
+  background: radial-gradient(
+        125.41% 259.03% at 78.72% 12.75%,
+        rgba(112, 59, 225, 0.2) 0%,
+        rgba(112, 59, 225, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+      109.93% 112.45% at 27.12% -9.93%,
+      #ffcafa 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+}
+
+.gradientButton {
+  background: radial-gradient(
+        140.93% 294.64% at 85.9% 100%,
+        rgba(226, 85, 212, 0.2) 11.98%,
+        rgba(255, 0, 229, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+      175.63% 246.69% at 53.21% -62.96%,
+      #220069 0%,
+      rgba(112, 59, 225, 0) 100%
+    );
+}
