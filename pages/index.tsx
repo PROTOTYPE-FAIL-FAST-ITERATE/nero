@@ -56,7 +56,7 @@ const Home: NextPage = () => {
             Pricing
           </h1>
           <div className="flex flex-row justify-between">
-            <div className="flex glassy h-[60vh] w-[22vw] rounded-fuller">
+            <div className="flex glassy h-[60vh] w-[23vw] rounded-fuller">
               <div className="flex flex-col place-content-evenly px-16">
                 <p className="text-5xl font-bold 2xl:text-6xl">$499</p>
                 <p className="text-m 2xl:text-xl">
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="flex glassy h-[60vh] w-[22vw] rounded-fuller mt-24">
+            <div className="flex glassy h-[60vh] w-[23vw] rounded-fuller mt-24">
               <div className="flex flex-col place-content-evenly px-16">
                 <p className="text-5xl font-bold 2xl:text-6xl">$749</p>
                 <p className="text-m 2xl:text-xl">
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="flex glassy h-[60vh] w-[22vw] rounded-fuller mt-48">
+            <div className="flex glassy h-[60vh] w-[23vw] rounded-fuller mt-48">
               <div className="flex flex-col place-content-evenly px-16">
                 <p className="text-5xl font-bold 2xl:text-6xl">$1249</p>
                 <p className="text-m 2xl:text-xl">
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
 
           <div className="flex flex-row space-x-24 justify-center pb-24">
             <Image
-              src={"/evan.png"}
+              src={"/Group 12.png"}
               alt="Picture of the author"
               width="900"
               height="900"
