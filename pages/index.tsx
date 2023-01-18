@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           <div className="flex flex-row justify-between">
 
             <div className="flex glassy h-[60vh] w-[42vh] rounded-fuller">
-              <div className="flex flex-col place-content-between px-16">
+              <div className="flex flex-col place-content-evenly px-16">
                 <p className="text-6xl font-bold">$499</p>
                 <p className="text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -69,8 +69,29 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="glassy h-[60vh] w-[42vh] rounded-fuller mt-16"></div>
-            <div className="glassy h-[60vh] w-[42vh] rounded-fuller mt-32"></div>
+            <div className="flex glassy h-[60vh] w-[42vh] rounded-fuller mt-16">
+              <div className="flex flex-col place-content-evenly px-16">
+                <p className="text-6xl font-bold">$749</p>
+                <p className="text-xl">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex glassy h-[60vh] w-[42vh] rounded-fuller mt-32">
+              <div className="flex flex-col place-content-evenly px-16">
+                <p className="text-6xl font-bold">$1299</p>
+                <p className="text-xl">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                </p>
+              </div>
+            </div>
 
 
           </div>
@@ -103,7 +124,7 @@ const Home: NextPage = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. <br/> <br/> Duis aute irure dolor in
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum
