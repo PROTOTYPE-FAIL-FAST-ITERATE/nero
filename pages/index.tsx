@@ -150,7 +150,7 @@ const Home: NextPage = () => {
 
         <div className="pt-24 pb-48">
           <h1 className="flex justify-center italiana text-6xl font-bold pb-14">
-            Careers
+            Careers at Nero
           </h1>
           <div className="flex flex-row justify-center">
             <p className="italiana text-2xl">Our team is currently full!</p>
