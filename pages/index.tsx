@@ -41,9 +41,9 @@ const Home: NextPage = () => {
 
         <div className="flex pt-5 w-[75vw] h-[75vh] rounded-full gradientCard">
           <div className="flex flex-col self-center pl-28 space-y-8">
-            <a className="italiana  text-2xl text-8xl ">Your Dream Website</a>
+            <a className="italiana  text-2xl text-8xl ">Your Dream Website.</a>
             <a className="italiana  text-2xl text-2xl ">
-              Lorem ipsum dolor sit, consectetur <br /> adipiscing elit.{" "}
+              Empower your business. Give it a <br /> second home, today.{" "}
             </a>
             <button className="italiana rounded-full text-black border-2 border-black text-2xl py-4 w-60 hover:bg-black hover:text-white">
               Learn More
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
 
         <div className="pt-24">
           <h1 className="flex justify-center italiana text-6xl font-bold pb-24">
-            About
+            About Our Founders
           </h1>
 
           <div className="flex flex-row space-x-24 justify-center pb-24">
