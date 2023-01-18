@@ -54,17 +54,82 @@ const Home: NextPage = () => {
             Pricing
           </h1>
           <div className="flex flex-row justify-between">
-            <div className="bg-slate-200 h-[60vh] w-[45vh] rounded-fuller"></div>
-            <div className="bg-slate-200 h-[60vh] w-[45vh] rounded-fuller mt-16"></div>
-            <div className="bg-slate-200 h-[60vh] w-[45vh] rounded-fuller mt-32"></div>
+            <div className="glassy h-[60vh] w-[45vh] rounded-fuller"></div>
+            <div className="glassy h-[60vh] w-[45vh] rounded-fuller mt-16"></div>
+            <div className="glassy h-[60vh] w-[45vh] rounded-fuller mt-32"></div>
           </div>
         </div>
 
-        <div>
-          <h1 className="flex justify-center italiana text-6xl font-bold pt-28">
+        <div className="pt-24">
+          <h1 className="flex justify-center italiana text-6xl font-bold pb-24">
             About
           </h1>
+
+          <div className="flex flex-row space-x-24 justify-center pb-24">
+            <div className="rounded-fullest w-72 h-72 bg-slate-100"></div>
+            <div className="rounded-fullest w-72 h-72 bg-slate-100"></div>
+          </div>
+
+          <div className="flex flex-row justify-center">
+            <p className="italiana text-2xl w-5/12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
         </div>
+
+        <div className="pt-24">
+          <h1 className="flex justify-center italiana text-6xl font-bold pb-24">
+            FAQ
+          </h1>
+          <div className="flex flex-row justify-center">
+            <p className="italiana text-2xl w-5/12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div>
+
+        <div className="pt-24 pb-48">
+          <h1 className="flex justify-center italiana text-6xl font-bold pb-14">
+            Careers
+          </h1>
+          <div className="flex flex-row justify-center">
+            <p className="italiana text-2xl">
+              Our team is currently full!
+            </p>
+          </div>
+        </div>
+
+
+        <div className="italiana text-lg pl-44 flex justify-between pb-10 min-w-full pr-44">
+          <div className="flex space-x-20 self-center">
+            <div>
+              <img src="Group 10.png" width={80} height={100} />
+            </div>
+            <div className="flex space-x-8">
+              <div>PRICING</div>
+              <div>ABOUT</div>
+              <div>FAQ</div>
+              <div>CAREERS</div>
+            </div>
+          </div>
+
+          <button className="rounded-full gradientButton text-white py-4 px-12">
+            CONTACT
+          </button>
+        </div>
+
       </div>
     </>
   );

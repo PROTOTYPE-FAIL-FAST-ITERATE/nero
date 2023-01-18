@@ -15,6 +15,7 @@ module.exports = {
       'lg': '0.5rem',
       'full': '2rem',
       'fuller': '3rem',
+      'fullest': '10rem',
       'large': '12px',
     },
     minWidth: {
