@@ -54,9 +54,9 @@ const Home: NextPage = () => {
             Pricing
           </h1>
           <div className="flex flex-row justify-between">
-            <div className="glassy h-[60vh] w-[45vh] rounded-fuller"></div>
-            <div className="glassy h-[60vh] w-[45vh] rounded-fuller mt-16"></div>
-            <div className="glassy h-[60vh] w-[45vh] rounded-fuller mt-32"></div>
+            <div className="glassy h-[60vh] w-[42vh] rounded-fuller"></div>
+            <div className="glassy h-[60vh] w-[42vh] rounded-fuller mt-16"></div>
+            <div className="glassy h-[60vh] w-[42vh] rounded-fuller mt-32"></div>
           </div>
         </div>
 
