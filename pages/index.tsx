@@ -119,12 +119,12 @@ const Home: NextPage = () => {
           <div className="flex flex-row justify-center">
             <p className="italiana text-2xl w-5/12">
               Meet Evan and Jae, the masterminds behind Nero - A
-              one-stop-shop for professional, <b className="font-medium">budget-friendly</b> web design and
+              one-stop-shop for professional, <b className="text-purple-600">budget-friendly</b> web design and
               development services. With extensive industry experience under
               their belts, they know the ins and outs of what small businesses
-              need to succeed online. From start-ups to well-established local
+              need to <b className="text-purple-600">succeed online</b>. From start-ups to well-established local
               companies, Nero's team of experts will help you create a website
-              that will make you stand out in your industry and attract your
+              that will make you <b className="text-purple-600">stand out</b> in your industry and attract your
               desired audience.
             </p>
           </div>
