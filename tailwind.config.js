@@ -14,6 +14,7 @@ module.exports = {
       'md': '0.375rem',
       'lg': '0.5rem',
       'full': '2rem',
+      'fuller': '3rem',
       'large': '12px',
     },
     minWidth: {

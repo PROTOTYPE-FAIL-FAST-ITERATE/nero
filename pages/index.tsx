@@ -2,10 +2,14 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 
+// TODO
+// - USE VIEWPORT VALUES FOR MORE RESPONSIVENESS
+//CSS UNITS: https://www.w3schools.com/css/css_units.asp
+
 const Home: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen overflow-hidden">
+      <div className="flex flex-col items-center justify-center overflow-hidden">
         <Head>
           <title>Create Next App</title>
           <link rel="icon" href="/favicon.ico" />
@@ -28,12 +32,12 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <button className="rounded-full gradientButton text-white py-2 px-6">
+          <button className="rounded-full gradientButton text-white py-4 px-12">
             CONTACT
           </button>
         </div>
 
-        <div className="flex pt-5 w-3/4 h-3/4 rounded-full gradientCard">
+        <div className="flex pt-5 w-[75vw] h-[75vh] rounded-full gradientCard">
           <div className="flex flex-col self-center pl-28 space-y-8">
             <a className="italiana  text-2xl text-8xl ">Your Dream Website</a>
             <a className="italiana  text-2xl text-2xl ">
@@ -45,8 +49,21 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-14">
-          <h1 className="italiana text-6xl font-bold">Pricing</h1>
+        <div className="pt-14 min-w-[75vw]">
+          <h1 className="flex justify-center italiana text-6xl font-bold pb-10 pt-10">
+            Pricing
+          </h1>
+          <div className="flex flex-row justify-between">
+            <div className="bg-slate-200 h-[60vh] w-[45vh] rounded-fuller"></div>
+            <div className="bg-slate-200 h-[60vh] w-[45vh] rounded-fuller mt-16"></div>
+            <div className="bg-slate-200 h-[60vh] w-[45vh] rounded-fuller mt-32"></div>
+          </div>
+        </div>
+
+        <div>
+          <h1 className="flex justify-center italiana text-6xl font-bold pt-28">
+            About
+          </h1>
         </div>
       </div>
     </>
