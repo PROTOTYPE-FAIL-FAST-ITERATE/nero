@@ -27,10 +27,10 @@ const Home: NextPage = () => {
               <img src="Group 10.png" width={80} height={100} />
             </div>
             <div className="flex space-x-8">
-              <div>PRICING</div>
-              <div>ABOUT</div>
-              <div>FAQ</div>
-              <div>CAREERS</div>
+              <div className="hover:underline">PRICING</div>
+              <div className="hover:underline">ABOUT</div>
+              <div className="hover:underline">FAQ</div>
+              <div className="hover:underline">CAREERS</div>
             </div>
           </div>
 
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             <a className="italiana  text-2xl text-2xl ">
               Lorem ipsum dolor sit, consectetur <br /> adipiscing elit.{" "}
             </a>
-            <button className="italiana  rounded-full text-black border-2 border-black text-2xl py-4 w-60">
+            <button className="italiana rounded-full text-black border-2 border-black text-2xl py-4 w-60 hover:bg-black hover:text-white">
               Learn More
             </button>
           </div>
@@ -56,11 +56,10 @@ const Home: NextPage = () => {
             Pricing
           </h1>
           <div className="flex flex-row justify-between">
-
-            <div className="flex glassy h-[60vh] w-[42vh] rounded-fuller">
+            <div className="flex glassy h-[60vh] w-[22vw] rounded-fuller">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-6xl font-bold">$499</p>
-                <p className="text-xl">
+                <p className="text-5xl font-bold 2xl:text-6xl">$499</p>
+                <p className="text-m 2xl:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -69,10 +68,10 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="flex glassy h-[60vh] w-[42vh] rounded-fuller mt-16">
+            <div className="flex glassy h-[60vh] w-[22vw] rounded-fuller mt-24">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-6xl font-bold">$749</p>
-                <p className="text-xl">
+                <p className="text-5xl font-bold 2xl:text-6xl">$749</p>
+                <p className="text-m 2xl:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -81,10 +80,10 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="flex glassy h-[60vh] w-[42vh] rounded-fuller mt-32">
+            <div className="flex glassy h-[60vh] w-[22vw] rounded-fuller mt-48">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-6xl font-bold">$1299</p>
-                <p className="text-xl">
+                <p className="text-5xl font-bold 2xl:text-6xl">$1249</p>
+                <p className="text-m 2xl:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -92,7 +91,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-
+  
 
           </div>
         </div>
@@ -110,7 +109,7 @@ const Home: NextPage = () => {
               height="900"
               className="relative rounded-fullest w-72 h-72 object-cover"
             />
-                    <Image
+            <Image
               src={"/jae.jpg"}
               alt="Picture of the author"
               width="900"
