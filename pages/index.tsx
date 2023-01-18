@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <>
       <div className="flex flex-col items-center justify-center overflow-hidden">
         <Head>
-          <title>Create Next App</title>
+          <title>Nero - Build your next home</title>
           <link rel="icon" href="/favicon.ico" />
           <link
             href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
@@ -91,8 +91,6 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-  
-
           </div>
         </div>
 
@@ -120,13 +118,14 @@ const Home: NextPage = () => {
 
           <div className="flex flex-row justify-center">
             <p className="italiana text-2xl w-5/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              Meet Evan and Jae, the masterminds behind Nero - A
+              one-stop-shop for professional, <b className="font-medium">budget-friendly</b> web design and
+              development services. With extensive industry experience under
+              their belts, they know the ins and outs of what small businesses
+              need to succeed online. From start-ups to well-established local
+              companies, Nero's team of experts will help you create a website
+              that will make you stand out in your industry and attract your
+              desired audience.
             </p>
           </div>
         </div>
