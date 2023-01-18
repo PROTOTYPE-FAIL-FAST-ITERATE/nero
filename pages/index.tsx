@@ -5,6 +5,8 @@ import Image from "next/image";
 // TODO
 // - USE VIEWPORT VALUES FOR MORE RESPONSIVENESS
 //CSS UNITS: https://www.w3schools.com/css/css_units.asp
+// PADDING IS INNER SPACING FOR CHILD ELEMENTS -> DECLARE IN PARENT
+// MARGIN IS OUTER SPACING FOR PARENT -> DECLARE IN PARENT
 
 const Home: NextPage = () => {
   return (
@@ -54,9 +56,23 @@ const Home: NextPage = () => {
             Pricing
           </h1>
           <div className="flex flex-row justify-between">
-            <div className="glassy h-[60vh] w-[42vh] rounded-fuller"></div>
+
+            <div className="flex glassy h-[60vh] w-[42vh] rounded-fuller">
+              <div className="flex flex-col place-content-between px-16">
+                <p className="text-6xl font-bold">$499</p>
+                <p className="text-xl">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                </p>
+              </div>
+            </div>
+
             <div className="glassy h-[60vh] w-[42vh] rounded-fuller mt-16"></div>
             <div className="glassy h-[60vh] w-[42vh] rounded-fuller mt-32"></div>
+
+
           </div>
         </div>
 
@@ -66,8 +82,20 @@ const Home: NextPage = () => {
           </h1>
 
           <div className="flex flex-row space-x-24 justify-center pb-24">
-            <div className="rounded-fullest w-72 h-72 bg-slate-100"></div>
-            <div className="rounded-fullest w-72 h-72 bg-slate-100"></div>
+            <Image
+              src={"/evan.png"}
+              alt="Picture of the author"
+              width="900"
+              height="900"
+              className="relative rounded-fullest w-72 h-72 object-cover"
+            />
+                    <Image
+              src={"/jae.jpg"}
+              alt="Picture of the author"
+              width="900"
+              height="900"
+              className="relative rounded-fullest w-72 h-72 object-cover"
+            />
           </div>
 
           <div className="flex flex-row justify-center">
@@ -105,12 +133,9 @@ const Home: NextPage = () => {
             Careers
           </h1>
           <div className="flex flex-row justify-center">
-            <p className="italiana text-2xl">
-              Our team is currently full!
-            </p>
+            <p className="italiana text-2xl">Our team is currently full!</p>
           </div>
         </div>
-
 
         <div className="italiana text-lg pl-44 flex justify-between pb-10 min-w-full pr-44">
           <div className="flex space-x-20 self-center">
@@ -129,7 +154,6 @@ const Home: NextPage = () => {
             CONTACT
           </button>
         </div>
-
       </div>
     </>
   );

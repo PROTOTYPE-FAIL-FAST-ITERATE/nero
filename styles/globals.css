@@ -43,3 +43,8 @@ backdrop-filter: blur(5.3px);
 -webkit-backdrop-filter: blur(5.3px);
 border: 1px solid rgba(255, 255, 255, 0.44);
 }
+
+.backgroundImageEvan {
+  background-image: url('../public/evan.png');
+    object-fit: cover;
+}
