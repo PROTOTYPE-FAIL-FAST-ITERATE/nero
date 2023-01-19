@@ -14,10 +14,11 @@
   background-image: url('../public/mountain.jpg');
   object-fit: cover;
   width: 100vw;  
-height: 1000px; 
+height: 1150px; 
 z-index: -999;
 position: absolute;
 display:block;
+
 }
 
 .gradientButton {

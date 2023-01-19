@@ -51,16 +51,16 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-44  min-w-full">
+        <div className="pt-44 min-w-full pb-44">
           <div className="strip"></div>
-          <h1 className="flex justify-center italiana text-6xl text-white font-bold pb-10 pt-10">
+          <h1 className="flex justify-center italiana text-6xl text-white font-bold pb-10 pt-24">
             Pricing
           </h1>
 
           <div className="flex flex-row justify-center space-x-8">
             <div className="flex glassy h-[60vh] w-[23vw] ">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-5xl font-bold 2xl:text-6xl">$499</p>
+                <p className=" text-5xl font-bold 2xl:text-6xl">$499</p>
                 <p className="text-m 2xl:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -96,7 +96,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="mt-64">
+        <div className="mt-52">
           <h1 className="flex justify-center italiana text-6xl font-bold pb-24">
             About Our Founders
           </h1>
