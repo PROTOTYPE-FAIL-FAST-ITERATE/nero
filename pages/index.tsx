@@ -34,29 +34,31 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <button className="rounded-full gradientButton text-white py-4 px-12">
+          <button className="rounded-full bg-black text-white py-4 px-12">
             CONTACT
           </button>
         </div>
 
-        <div className="flex pt-5 w-[75vw] h-[75vh] rounded-full gradientCard">
+        <div className="flex pt-5 w-[75vw] h-[75vh] rounded-full text-white gradientCard">
           <div className="flex flex-col self-center pl-28 space-y-8">
             <a className="italiana  text-2xl text-8xl ">Your Dream Website.</a>
             <a className="italiana  text-2xl text-2xl ">
               Empower your business. Give it a <br /> second home, today.{" "}
             </a>
-            <button className="italiana rounded-full text-black border-2 border-black text-2xl py-4 w-60 hover:bg-black hover:text-white">
+            <button className="italiana rounded-full text-white border-2 border-white text-2xl py-4 w-60 hover:bg-white hover:text-black">
               Learn More
             </button>
           </div>
         </div>
 
-        <div className="pt-14 min-w-[75vw]">
-          <h1 className="flex justify-center italiana text-6xl font-bold pb-10 pt-10">
+        <div className="pt-44  min-w-full">
+          <div className="strip"></div>
+          <h1 className="flex justify-center italiana text-6xl text-white font-bold pb-10 pt-10">
             Pricing
           </h1>
-          <div className="flex flex-row justify-between">
-            <div className="flex glassy h-[60vh] w-[23vw] rounded-fuller">
+
+          <div className="flex flex-row justify-center space-x-8">
+            <div className="flex glassy h-[60vh] w-[23vw] ">
               <div className="flex flex-col place-content-evenly px-16">
                 <p className="text-5xl font-bold 2xl:text-6xl">$499</p>
                 <p className="text-m 2xl:text-xl">
@@ -68,7 +70,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="flex glassy h-[60vh] w-[23vw] rounded-fuller mt-24">
+            <div className="flex glassy h-[60vh] w-[23vw]  mt-24">
               <div className="flex flex-col place-content-evenly px-16">
                 <p className="text-5xl font-bold 2xl:text-6xl">$749</p>
                 <p className="text-m 2xl:text-xl">
@@ -80,7 +82,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="flex glassy h-[60vh] w-[23vw] rounded-fuller mt-48">
+            <div className="flex glassy h-[60vh] w-[23vw]  mt-48">
               <div className="flex flex-col place-content-evenly px-16">
                 <p className="text-5xl font-bold 2xl:text-6xl">$1249</p>
                 <p className="text-m 2xl:text-xl">
@@ -94,7 +96,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-24">
+        <div className="mt-64">
           <h1 className="flex justify-center italiana text-6xl font-bold pb-24">
             About Our Founders
           </h1>
@@ -118,14 +120,16 @@ const Home: NextPage = () => {
 
           <div className="flex flex-row justify-center">
             <p className="italiana text-2xl w-5/12">
-              Meet Evan and Jae, the masterminds behind Nero - A
-              one-stop-shop for professional, <b className="text-purple-600">budget-friendly</b> web design and
+              Meet Evan and Jae, the masterminds behind Nero - A one-stop-shop
+              for professional,{" "}
+              <b className="text-purple-600">budget-friendly</b> web design and
               development services. With extensive industry experience under
               their belts, they know the ins and outs of what small businesses
-              need to <b className="text-purple-600">succeed online</b>. From start-ups to well-established local
-              companies, Nero's team of experts will help you create a website
-              that will make you <b className="text-purple-600">stand out</b> in your industry and attract your
-              desired audience.
+              need to <b className="text-purple-600">succeed online</b>. From
+              start-ups to well-established local companies, Nero's team of
+              experts will help you create a website that will make you{" "}
+              <b className="text-purple-600">stand out</b> in your industry and
+              attract your desired audience.
             </p>
           </div>
         </div>

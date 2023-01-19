@@ -7,17 +7,17 @@
 }
 
 .gradientCard {
-  background: radial-gradient(
-        125.41% 259.03% at 78.72% 12.75%,
-        rgba(112, 59, 225, 0.2) 0%,
-        rgba(112, 59, 225, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    radial-gradient(
-      109.93% 112.45% at 27.12% -9.93%,
-      #ffcafa 0%,
-      rgba(217, 217, 217, 0) 100%
-    );
+  background-image: url('../public/mountain.jpg');
+}
+
+.strip {
+  background-image: url('../public/mountain.jpg');
+  object-fit: cover;
+  width: 100vw;  
+height: 1000px; 
+z-index: -999;
+position: absolute;
+display:block;
 }
 
 .gradientButton {
@@ -39,7 +39,7 @@
 background: rgba(255, 255, 255, 0.27);
 border-radius: 3rem;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.3px);
+backdrop-filter: blur(8.3px);
 -webkit-backdrop-filter: blur(5.3px);
 border: 1px solid rgba(255, 255, 255, 0.44);
 }
