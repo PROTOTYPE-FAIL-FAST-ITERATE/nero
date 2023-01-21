@@ -98,25 +98,25 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="mt-36 sm:mt-52">
-          <h1 className="flex justify-center italiana text-center text-4xl sm:text-6xl font-bold pb-24">
+        <div className="mt-28 sm:mt-52">
+          <h1 className="flex justify-center italiana text-center text-4xl sm:text-6xl font-bold pb-12 sm:pb-24">
             About Our Founders
           </h1>
 
-          <div className="flex flex-row space-x-24 justify-center pb-24">
+          <div className="flex flex-row space-x-8 sm:space-x-24 justify-center pb-12 sm:pb-24">
             <Image
               src={"/Group 12.png"}
               alt="Picture of the author"
               width="900"
               height="900"
-              className="relative rounded-fullest w-72 h-72 object-cover"
+              className="relative rounded-fullest w-32 sm:w-72 sm:h-72 object-cover"
             />
             <Image
               src={"/jae.jpg"}
               alt="Picture of the author"
               width="900"
               height="900"
-              className="relative rounded-fullest w-72 h-72 object-cover"
+              className="relative rounded-fullest w-32 sm:w-72 sm:h-72 object-cover"
             />
           </div>
 
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-24">
+        <div className="pt-12 sm:pt-24">
           <h1 className="flex justify-center italiana text-4xl sm:text-6xl font-bold pb-24">
             FAQ
           </h1>
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-24 pb-48">
+        <div className="pt-12 sm:pt-24 pb-32 sm:pb-48">
           <h1 className="flex justify-center italiana text-4xl sm:text-6xl font-bold pb-14">
             Careers at Nero
           </h1>
