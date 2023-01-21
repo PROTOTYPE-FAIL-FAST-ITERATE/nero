@@ -6,6 +6,10 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    height: {
+      '1150px': '1150px',
+      '200vh': '200vh',
+    },
     borderRadius: {
       'none': '0',
       'sm': '0.125rem',
