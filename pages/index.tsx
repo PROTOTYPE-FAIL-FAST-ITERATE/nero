@@ -59,7 +59,7 @@ const Home: NextPage = () => {
             Pricing
           </a>
 
-          <div className="flex flex-col sm:flex-row place-items-center sm:justify-center sm:space-x-8 gap-y-8 sm:gap-y-0">
+          <div className="flex flex-col sm:flex-row place-items-center sm:justify-center sm:space-x-8 gap-y-12 sm:gap-y-0">
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw] ">
               <div className="flex flex-col place-content-evenly px-16">
                 <p className=" text-3xl font-bold sm:text-6xl">$499</p>
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="mt-28 sm:mt-52">
+        <div className="mt-20 sm:mt-52">
           <a className="flex justify-center italiana text-center text-3xl sm:text-6xl pb-12 sm:pb-24">
             About Our Founders
           </a>
@@ -154,7 +154,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-12 sm:pt-24 pb-32 sm:pb-48">
-          <h1 className="flex justify-center italiana text-3xl sm:text-6xl pb-14">
+          <h1 className="flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-14">
             Careers at Nero
           </h1>
           <div className="flex flex-row justify-center">
