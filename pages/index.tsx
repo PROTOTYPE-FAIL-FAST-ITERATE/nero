@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 
         <div className="pt-36 sm:pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
-          <a className="flex justify-center italiana text-3xl sm:text-6xl text-white pb-10 pt-16 sm:pt-24">
+          <a className="flex justify-center italiana text-3xl sm:text-6xl text-white pb-16 sm:pb-10 pt-16 sm:pt-24">
             Pricing
           </a>
 
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="mt-20 sm:mt-52">
+        <div className="mt-16 sm:mt-52">
           <a className="flex justify-center italiana text-center text-3xl sm:text-6xl pb-12 sm:pb-24">
             About Our Founders
           </a>
