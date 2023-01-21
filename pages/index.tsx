@@ -21,12 +21,12 @@ const Home: NextPage = () => {
           ></link>
         </Head>
 
-        <div className="italiana text-sm sm:text-lg pl-44 flex justify-between pt-10 pb-14 sm:pb-20 min-w-full pr-44">
+        <div className="italiana text-xs sm:text-lg pl-44 flex justify-between pt-10 pb-14 sm:pb-20 min-w-full pr-44">
           <div className="flex sm:space-x-20 self-center">
             <div>
               <img src="Group 10.png" width={80} height={100} />
             </div>
-            <div className="flex space-x-3 sm:space-x-8">
+            <div className="flex space-x-4 sm:space-x-8">
               <div className="hover:underline">PRICING</div>
               <div className="hover:underline">ABOUT</div>
               <div className="hover:underline">FAQ</div>
@@ -137,7 +137,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-12 sm:pt-24">
-          <h1 className="flex justify-center italiana text-4xl sm:text-6xl font-bold pb-24">
+          <h1 className="flex justify-center italiana text-4xl sm:text-6xl font-bold pb-12 sm:pb-24">
             FAQ
           </h1>
           <div className="flex flex-row justify-center">
