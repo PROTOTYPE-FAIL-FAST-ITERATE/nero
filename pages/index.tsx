@@ -41,7 +41,7 @@ const Home: NextPage = () => {
 
         <div className="flex pt-5 w-[85vw] h-[75vh] sm:w-[75vw] rounded-full text-white gradientCard">
           <div className="flex flex-col self-center sm:pl-28 space-y-8">
-            <a className="italiana  text-center sm:text-left text-5xl sm:text-6xl sm:text-8xl">Your Dream Website.</a>
+            <a className="italiana  text-center sm:text-left text-5xl sm:text-8xl">Your Dream Website.</a>
             <a className="italiana  text-l text-center sm:text-left sm:text-2xl ">
               Empower your business. Give it a <br /> second home, today.{" "}
             </a>
@@ -53,9 +53,9 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-44 min-w-full pb-44">
+        <div className="pt-36 sm:pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
-          <a className="flex justify-center italiana text-3xl sm:text-6xl text-white font-bold pb-10 pt-16 sm:pt-24">
+          <a className="flex justify-center italiana text-3xl sm:text-6xl text-white pb-10 pt-16 sm:pt-24">
             Pricing
           </a>
 
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="mt-28 sm:mt-52">
-          <a className="flex justify-center italiana text-center text-3xl sm:text-6xl font-bold pb-12 sm:pb-24">
+          <a className="flex justify-center italiana text-center text-3xl sm:text-6xl pb-12 sm:pb-24">
             About Our Founders
           </a>
 
@@ -137,7 +137,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-12 sm:pt-24">
-          <h1 className="flex justify-center italiana text-3xl sm:text-6xl font-bold pb-12 sm:pb-24">
+          <h1 className="flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-24">
             FAQ
           </h1>
           <div className="flex flex-row justify-center">
@@ -154,7 +154,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-12 sm:pt-24 pb-32 sm:pb-48">
-          <h1 className="flex justify-center italiana text-3xl sm:text-6xl font-bold pb-14">
+          <h1 className="flex justify-center italiana text-3xl sm:text-6xl pb-14">
             Careers at Nero
           </h1>
           <div className="flex flex-row justify-center">
