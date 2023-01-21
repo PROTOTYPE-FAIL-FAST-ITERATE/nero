@@ -99,9 +99,9 @@ const Home: NextPage = () => {
         </div>
 
         <div className="mt-28 sm:mt-52">
-          <h1 className="flex justify-center italiana text-center text-3xl sm:text-6xl font-bold pb-12 sm:pb-24">
+          <a className="flex justify-center italiana text-center text-3xl sm:text-6xl font-bold pb-12 sm:pb-24">
             About Our Founders
-          </h1>
+          </a>
 
           <div className="flex flex-row space-x-8 sm:space-x-24 justify-center pb-12 sm:pb-24">
             <Image
