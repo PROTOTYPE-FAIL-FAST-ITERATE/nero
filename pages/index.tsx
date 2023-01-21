@@ -41,7 +41,7 @@ const Home: NextPage = () => {
 
         <div className="flex pt-5 w-[85vw] h-[75vh] sm:w-[75vw] rounded-full text-white gradientCard">
           <div className="flex flex-col self-center sm:pl-28 space-y-8">
-            <a className="italiana  text-center sm:text-left text-6xl sm:text-8xl">Your Dream Website.</a>
+            <a className="italiana  text-center sm:text-left text-5xl sm:text-6xl sm:text-8xl">Your Dream Website.</a>
             <a className="italiana  text-l text-center sm:text-left sm:text-2xl ">
               Empower your business. Give it a <br /> second home, today.{" "}
             </a>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 
         <div className="pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
-          <h1 className="flex justify-center italiana text-6xl text-white font-bold pb-10 pt-24">
+          <h1 className="flex justify-center italiana text-5xl sm:text-6xl text-white font-bold pb-10 pt-24">
             Pricing
           </h1>
 
