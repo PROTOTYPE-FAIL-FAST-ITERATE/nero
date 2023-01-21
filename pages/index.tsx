@@ -55,9 +55,9 @@ const Home: NextPage = () => {
 
         <div className="pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
-          <h1 className="flex justify-center italiana text-3xl sm:text-6xl text-white font-bold pb-10 pt-16 sm:pt-24">
+          <a className="flex justify-center italiana text-3xl sm:text-6xl text-white font-bold pb-10 pt-16 sm:pt-24">
             Pricing
-          </h1>
+          </a>
 
           <div className="flex flex-col sm:flex-row place-items-center sm:justify-center sm:space-x-8 gap-y-8 sm:gap-y-0">
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw] ">
