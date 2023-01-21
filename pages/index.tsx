@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             <div>
               <img src="Group 10.png" width={80} height={100} />
             </div>
-            <div className="flex space-x-5 sm:space-x-8">
+            <div className="flex space-x-3 sm:space-x-8">
               <div className="hover:underline">PRICING</div>
               <div className="hover:underline">ABOUT</div>
               <div className="hover:underline">FAQ</div>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 
         <div className="pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
-          <h1 className="flex justify-center italiana text-5xl sm:text-6xl text-white font-bold pb-10 pt-24">
+          <h1 className="flex justify-center italiana text-4xl sm:text-6xl text-white font-bold pb-10 pt-24">
             Pricing
           </h1>
 
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="mt-36 sm:mt-52">
-          <h1 className="flex justify-center italiana text-center text-5xl sm:text-6xl font-bold pb-24">
+          <h1 className="flex justify-center italiana text-center text-4xl sm:text-6xl font-bold pb-24">
             About Our Founders
           </h1>
 
@@ -137,7 +137,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-24">
-          <h1 className="flex justify-center italiana text-5xl sm:text-6xl font-bold pb-24">
+          <h1 className="flex justify-center italiana text-4xl sm:text-6xl font-bold pb-24">
             FAQ
           </h1>
           <div className="flex flex-row justify-center">
@@ -154,7 +154,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-24 pb-48">
-          <h1 className="flex justify-center italiana text-5xl sm:text-6xl font-bold pb-14">
+          <h1 className="flex justify-center italiana text-4xl sm:text-6xl font-bold pb-14">
             Careers at Nero
           </h1>
           <div className="flex flex-row justify-center">
