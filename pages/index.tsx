@@ -55,15 +55,15 @@ const Home: NextPage = () => {
 
         <div className="pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
-          <h1 className="flex justify-center italiana text-4xl sm:text-6xl text-white font-bold pb-10 pt-24">
+          <h1 className="flex justify-center italiana text-4xl sm:text-6xl text-white font-bold pb-10 pt-16 sm:pt-24">
             Pricing
           </h1>
 
           <div className="flex flex-col sm:flex-row place-items-center sm:justify-center sm:space-x-8 gap-y-8 sm:gap-y-0">
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw] ">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className=" text-5xl font-bold 2xl:text-6xl">$499</p>
-                <p className="text-m 2xl:text-xl">
+                <p className=" text-4xl font-bold sm:text-6xl">$499</p>
+                <p className="text-sm sm:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -74,8 +74,8 @@ const Home: NextPage = () => {
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-24">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-5xl font-bold 2xl:text-6xl">$749</p>
-                <p className="text-m 2xl:text-xl">
+                <p className="text-4xl font-bold sm:text-6xl">$749</p>
+                <p className="text-sm sm:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -86,8 +86,8 @@ const Home: NextPage = () => {
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-48">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-5xl font-bold 2xl:text-6xl">$1249</p>
-                <p className="text-m 2xl:text-xl">
+                <p className="text-4xl font-bold sm:text-6xl">$1249</p>
+                <p className="text-sm sm:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
