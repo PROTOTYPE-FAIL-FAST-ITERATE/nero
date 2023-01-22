@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-4">
+          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-8">
             Contact
           </button>
         </div>
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
                 <p className="inter text-3xl font-bold sm:text-6xl">$799</p>
                 <p className="inter font-light text-sm sm:text-xl">
                   Delivery Time <br></br>
-                  Under 2 weeks Single landing page.
+                  - Under 2 weeks Single landing page.
                 </p>
               </div>
             </div>
