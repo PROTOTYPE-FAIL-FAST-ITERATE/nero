@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           />
         </Head>
 
-        <div className="inter font-semibold text-xs sm:text-lg pl-44 flex justify-between pt-8 sm:pt-10 pb-6 sm:pb-20 min-w-full pr-44">
+        <div className="inter font-base text-xs sm:text-lg pl-44 flex justify-between pt-8 sm:pt-10 pb-6 sm:pb-20 min-w-full pr-44">
           <div className="flex sm:space-x-20 self-center">
             <div>
               <img src="Group 10.png" width={80} height={100} />
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
               Empower your business. Give it a <br /> second home, today.{" "}
             </a>
             <div className="flex justify-center sm:justify-start">
-              <button className="inter font-semibold rounded-full text-white border-2 border-white text-l sm:text-xl sm:ml-6 py-3 sm:py-4 w-44 sm:w-52 hover:bg-white hover:text-black">
+              <button className="glassyButton inter font-semibold rounded-full text-white border-2 border-white text-l sm:text-xl sm:ml-6 py-3 sm:py-4 w-44 sm:w-52 hover:bg-white hover:text-black">
                 Our Portfolio
               </button>
             </div>
