@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           />
         </Head>
 
-        <div className="inter font-semibold text-xs sm:text-lg pl-44 flex justify-between pt-10 pb-10 sm:pb-20 min-w-full pr-44">
+        <div className="inter font-semibold text-xs sm:text-lg pl-44 flex justify-between pt-8 sm:pt-10 pb-6 sm:pb-20 min-w-full pr-44">
           <div className="flex sm:space-x-20 self-center">
             <div>
               <img src="Group 10.png" width={80} height={100} />
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-8">
+          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-10">
             Contact
           </button>
         </div>
@@ -64,34 +64,37 @@ const Home: NextPage = () => {
           <div className="flex flex-col sm:flex-row place-items-center sm:justify-center sm:space-x-8 gap-y-12 sm:gap-y-0">
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw] ">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="inter text-3xl font-bold sm:text-6xl">$799</p>
-                <p className="inter font-light text-sm sm:text-xl">
-                  Delivery Time <br></br>
-                  - Under 2 weeks Single landing page.
+                <p className="inter text-4xl font-bold sm:text-6xl">$799</p>
+                <p className="inter font-light text-l sm:text-2xl">
+                  Delivery Time 
+                  <br></br>
+                  - Under 2 weeks 
+                  <br></br>
+                  - Single landing page.
                 </p>
               </div>
             </div>
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-24">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="inter text-3xl font-bold sm:text-6xl">$1199</p>
-                <p className="inter font-light text-sm sm:text-xl">
+                <p className="inter text-4xl font-bold sm:text-6xl">$1199</p>
+                <p className="inter font-light text-l sm:text-2xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                  laboris.{" "}
                 </p>
               </div>
             </div>
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-48">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="inter text-3xl font-bold sm:text-6xl">$1749</p>
-                <p className="inter font-light text-sm sm:text-xl">
+                <p className="inter text-4xl font-bold sm:text-6xl">$1749</p>
+                <p className="inter font-light text-l sm:text-2xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                  laboris.{" "}
                 </p>
               </div>
             </div>
