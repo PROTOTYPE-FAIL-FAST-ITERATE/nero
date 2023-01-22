@@ -6,6 +6,11 @@
   font-family: "Italiana", serif;
 }
 
+.inter {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.05em
+}
+
 .gradientCard {
   background-image: url('../public/mountain.jpg');
 }

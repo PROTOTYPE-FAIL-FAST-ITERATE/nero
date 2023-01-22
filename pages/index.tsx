@@ -19,34 +19,36 @@ const Home: NextPage = () => {
             href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
             rel="stylesheet"
           ></link>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+
         </Head>
 
-        <div className="italiana text-xs sm:text-lg pl-44 flex justify-between pt-10 pb-10 sm:pb-20 min-w-full pr-44">
+        <div className="inter font-light text-xs sm:text-lg pl-44 flex justify-between pt-10 pb-10 sm:pb-20 min-w-full pr-44">
           <div className="flex sm:space-x-20 self-center">
             <div>
               <img src="Group 10.png" width={80} height={100} />
             </div>
             <div className="flex space-x-4 sm:space-x-8">
-              <div className="hover:underline">PRICING</div>
-              <div className="hover:underline">ABOUT</div>
+              <div className="hover:underline">Pricing</div>
+              <div className="hover:underline">About</div>
               <div className="hover:underline">FAQ</div>
-              <div className="hover:underline">CAREERS</div>
+              <div className="hover:underline">Careers</div>
             </div>
           </div>
 
-          <button className="rounded-full bg-black text-white py-1.5 px-3.5 sm:px-12 sm:py-4 ml-6 sm:ml-0">
-            CONTACT
+          <button className="font-bold rounded-full bg-black text-white py-2 px-3.5 sm:px-12 sm:py-4 ml-6 sm:ml-0">
+            Contact
           </button>
         </div>
 
         <div className="flex pt-5 w-[85vw] h-[75vh] sm:w-[75vw] rounded-full text-white gradientCard">
           <div className="flex flex-col self-center sm:pl-28 space-y-8">
-            <a className="italiana  text-center sm:text-left text-5xl sm:text-8xl">Your Dream Website.</a>
-            <a className="italiana  text-l text-center sm:text-left sm:text-2xl ">
+            <a className="inter  font-bold text-center sm:text-left text-5xl sm:text-8xl">Your Dream Website.</a>
+            <a className="inter font-light  text-l text-center sm:text-left sm:text-2xl ">
               Empower your business. Give it a <br /> second home, today.{" "}
             </a>
           <div className="flex justify-center sm:justify-start">
-            <button className="italiana rounded-full text-white border-2 border-white text-2xl py-4 w-60 hover:bg-white hover:text-black ">
+            <button className="inter font-normal rounded-full text-white border-2 border-white text-xl sm:text-2xl py-4 w-52 sm:w-60  hover:bg-white hover:text-black ">
               Learn More
             </button>
             </div>
@@ -55,27 +57,27 @@ const Home: NextPage = () => {
 
         <div className="pt-36 sm:pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
-          <a className="flex justify-center italiana text-3xl sm:text-6xl text-white pb-16 sm:pb-10 pt-16 sm:pt-24">
+          <a className="inter font-semibold flex justify-center italiana text-3xl sm:text-6xl text-white pb-16 sm:pb-10 pt-16 sm:pt-24">
             Pricing
           </a>
 
           <div className="flex flex-col sm:flex-row place-items-center sm:justify-center sm:space-x-8 gap-y-12 sm:gap-y-0">
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw] ">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className=" text-3xl font-bold sm:text-6xl">$499</p>
-                <p className="text-sm sm:text-xl">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                <p className="inter text-3xl font-bold sm:text-6xl">$799</p>
+                <p className="inter font-light text-sm sm:text-xl">
+                  Delivery Time <br></br>
+                  Under 2 weeks
+                  Single landing page. 
+      
                 </p>
               </div>
             </div>
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-24">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-3xl font-bold sm:text-6xl">$749</p>
-                <p className="text-sm sm:text-xl">
+                <p className="inter text-3xl font-bold sm:text-6xl">$1199</p>
+                <p className="inter font-light text-sm sm:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -86,8 +88,8 @@ const Home: NextPage = () => {
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-48">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="text-3xl font-bold sm:text-6xl">$1249</p>
-                <p className="text-sm sm:text-xl">
+                <p className="inter text-3xl font-bold sm:text-6xl">$1749</p>
+                <p className="inter font-light text-sm sm:text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -99,7 +101,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="mt-16 sm:mt-52">
-          <a className="flex justify-center italiana text-center text-3xl sm:text-6xl pb-12 sm:pb-24">
+          <a className="inter font-semibold flex justify-center text-center text-3xl sm:text-6xl pb-12 sm:pb-24">
             About Our Founders
           </a>
 
@@ -121,7 +123,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex flex-row justify-center">
-            <p className="italiana text-l sm:text-2xl w-9/12 sm:w-5/12">
+            <p className="inter font-light text-l sm:text-2xl w-9/12 sm:w-5/12">
               Meet Evan and Jae, the masterminds behind Nero - A one-stop-shop
               for professional,{" "}
               <b className="text-purple-600">budget-friendly</b> web design and
@@ -137,11 +139,11 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-12 sm:pt-24">
-          <h1 className="flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-24">
+          <h1 className="inter font-semibold flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-24">
             FAQ
           </h1>
           <div className="flex flex-row justify-center">
-            <p className="italiana text-l sm:text-2xl w-9/12 sm:w-5/12">
+            <p className="inter font-light text-l sm:text-2xl w-9/12 sm:w-5/12">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -154,11 +156,11 @@ const Home: NextPage = () => {
         </div>
 
         <div className="pt-12 sm:pt-24 pb-32 sm:pb-48">
-          <h1 className="flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-14">
+          <h1 className="inter font-semibold flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-14">
             Careers at Nero
           </h1>
           <div className="flex flex-row justify-center">
-            <p className="italiana text-l sm:text-2xl">Our team is currently full!</p>
+            <p className="inter font-light text-l sm:text-2xl">Our team is currently full!</p>
           </div>
         </div>
 
@@ -167,16 +169,16 @@ const Home: NextPage = () => {
             <div>
               <img src="Group 10.png" width={80} height={100} />
             </div>
-            <div className="flex space-x-5 sm:space-x-8">
-              <div>PRICING</div>
-              <div>ABOUT</div>
+            <div className="inter font-light flex space-x-5 sm:space-x-8">
+              <div>Pricing</div>
+              <div>About</div>
               <div>FAQ</div>
-              <div>CAREERS</div>
+              <div>Careers</div>
             </div>
           </div>
           
-          <button className="rounded-full gradientButton text-white py-1.5 px-3.5 sm:px-12 sm:py-4 ml-4">
-            CONTACT
+          <button className="inter font-semibold rounded-full gradientButton text-white py-1.5 px-3.5 sm:px-12 sm:py-4 ml-4">
+            Contact
           </button>
         </div>
       </div>
