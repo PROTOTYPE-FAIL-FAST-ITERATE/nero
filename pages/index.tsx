@@ -16,14 +16,12 @@ const Home: NextPage = () => {
           <title>Nero - Build your next home</title>
           <link rel="icon" href="/favicon.ico" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
             rel="stylesheet"
-          ></link>
-          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
-
+          />
         </Head>
 
-        <div className="inter font-light text-xs sm:text-lg pl-44 flex justify-between pt-10 pb-10 sm:pb-20 min-w-full pr-44">
+        <div className="inter font-semibold text-xs sm:text-lg pl-44 flex justify-between pt-10 pb-10 sm:pb-20 min-w-full pr-44">
           <div className="flex sm:space-x-20 self-center">
             <div>
               <img src="Group 10.png" width={80} height={100} />
@@ -36,21 +34,23 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <button className="font-bold rounded-full bg-black text-white py-2 px-3.5 sm:px-12 sm:py-4 ml-6 sm:ml-0">
+          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-4">
             Contact
           </button>
         </div>
 
         <div className="flex pt-5 w-[85vw] h-[75vh] sm:w-[75vw] rounded-full text-white gradientCard">
           <div className="flex flex-col self-center sm:pl-28 space-y-8">
-            <a className="inter  font-bold text-center sm:text-left text-5xl sm:text-8xl">Your Dream Website.</a>
-            <a className="inter font-light  text-l text-center sm:text-left sm:text-2xl ">
+            <a className="inter  font-bold text-center sm:text-left text-5xl sm:text-8xl">
+              Your Dream Website.
+            </a>
+            <a className="inter font-medium text-l text-center sm:text-left sm:text-2xl sm:ml-6">
               Empower your business. Give it a <br /> second home, today.{" "}
             </a>
-          <div className="flex justify-center sm:justify-start">
-            <button className="inter font-normal rounded-full text-white border-2 border-white text-xl sm:text-2xl py-4 w-52 sm:w-60  hover:bg-white hover:text-black ">
-              Learn More
-            </button>
+            <div className="flex justify-center sm:justify-start">
+              <button className="inter font-semibold rounded-full text-white border-2 border-white text-l sm:text-xl sm:ml-6 py-3 sm:py-4 w-44 sm:w-52 hover:bg-white hover:text-black">
+                Our Portfolio
+              </button>
             </div>
           </div>
         </div>
@@ -67,9 +67,7 @@ const Home: NextPage = () => {
                 <p className="inter text-3xl font-bold sm:text-6xl">$799</p>
                 <p className="inter font-light text-sm sm:text-xl">
                   Delivery Time <br></br>
-                  Under 2 weeks
-                  Single landing page. 
-      
+                  Under 2 weeks Single landing page.
                 </p>
               </div>
             </div>
@@ -160,7 +158,9 @@ const Home: NextPage = () => {
             Careers at Nero
           </h1>
           <div className="flex flex-row justify-center">
-            <p className="inter font-light text-l sm:text-2xl">Our team is currently full!</p>
+            <p className="inter font-light text-l sm:text-2xl">
+              Our team is currently full!
+            </p>
           </div>
         </div>
 
@@ -176,7 +176,7 @@ const Home: NextPage = () => {
               <div>Careers</div>
             </div>
           </div>
-          
+
           <button className="inter font-semibold rounded-full gradientButton text-white py-1.5 px-3.5 sm:px-12 sm:py-4 ml-4">
             Contact
           </button>
