@@ -23,20 +23,6 @@ display:block;
 
 }
 
-.gradientButton {
-  background: radial-gradient(
-        140.93% 294.64% at 85.9% 100%,
-        rgba(226, 85, 212, 0.2) 11.98%,
-        rgba(255, 0, 229, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    radial-gradient(
-      175.63% 246.69% at 53.21% -62.96%,
-      #220069 0%,
-      rgba(112, 59, 225, 0) 100%
-    );
-}
-
 .glassy {
  /* From https://css.glass */
 background: rgba(255, 255, 255, 0.27);

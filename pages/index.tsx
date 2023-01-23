@@ -9,11 +9,7 @@ import { Link, animateScroll as scroll } from "react-scroll"; /// FIX THIS TODO
 // PADDING IS INNER SPACING FOR CHILD ELEMENTS -> DECLARE IN PARENT
 // MARGIN IS OUTER SPACING FOR PARENT -> DECLARE IN PARENT
 
-
-  
-
 const Home: NextPage = () => {
-  
   return (
     <>
       <div className="flex flex-col items-center justify-center overflow-hidden">
@@ -32,18 +28,23 @@ const Home: NextPage = () => {
               <img src="Group 10.png" width={80} height={100} />
             </div>
             <div className="flex space-x-4 sm:space-x-8">
-              <Link to="pricing" className="hover:underline cursor-pointer">Pricing</Link>
-              <Link to="about" className="hover:underline cursor-pointer">About</Link>
-              <Link to="faq" className="hover:underline cursor-pointer">FAQ</Link>
-              <Link to="careers" className="hover:underline cursor-pointer">Careers</Link>
+              <Link to="pricing" className="hover:underline cursor-pointer">
+                Pricing
+              </Link>
+              <Link to="about" className="hover:underline cursor-pointer">
+                About
+              </Link>
+              <Link to="faq" className="hover:underline cursor-pointer">
+                FAQ
+              </Link>
+              <Link to="careers" className="hover:underline cursor-pointer">
+                Careers
+              </Link>
             </div>
           </div>
 
-          <button
-            className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-12"
-          
-          >
-             <a href="mailto:info@nero.solutions">Contact</a>
+          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-12">
+            <a href="mailto:info@nero.solutions">Contact</a>
           </button>
         </div>
 
@@ -75,8 +76,7 @@ const Home: NextPage = () => {
                 <p className="inter text-4xl font-bold sm:text-6xl">$799</p>
                 <p className="inter font-light text-l sm:text-2xl pt-8">
                   - 2 Week Delivery
-                  <br></br>
-                  - 1 custom landing page
+                  <br></br>- 1 custom landing page
                   <br></br>
                   <br></br>
                   Our standard tier. Initial $100 deposit.
@@ -105,8 +105,7 @@ const Home: NextPage = () => {
                   Contact For Price
                 </p>
                 <p className="inter font-light text-l sm:text-2xl pt-8">
-                  Login portals, membership sites, admin panels,
-                  online stores
+                  Login portals, membership sites, admin panels, online stores
                   <br></br>
                   <br></br>
                   Book a consultation with us for more information.
@@ -183,23 +182,27 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="italiana text-sm sm:text-lg pl-44 flex justify-between sm:pt-10 pb-7 sm:pb-10 min-w-full pr-44">
+        <div className="inter font-base text-xs sm:text-lg pl-44 flex justify-between sm:pt-10 pb-6 sm:pb-20 min-w-full pr-44">
           <div className="flex sm:space-x-20 self-center">
             <div>
               <img src="Group 10.png" width={80} height={100} />
             </div>
-            <div className="inter font-light flex space-x-5 sm:space-x-8">
-              <div>Pricing</div>
-              <div>About</div>
-              <div>FAQ</div>
-              <div>Careers</div>
+            <div className="flex space-x-4 sm:space-x-8">
+              <Link to="pricing" className="hover:underline cursor-pointer">Pricing</Link>
+              <Link to="about" className="hover:underline cursor-pointer">About</Link>
+              <Link to="faq" className="hover:underline cursor-pointer">FAQ</Link>
+              <Link to="careers" className="hover:underline cursor-pointer">Careers</Link>
             </div>
           </div>
 
-          <button className="inter font-semibold rounded-full gradientButton text-white py-1.5 px-3.5 sm:px-12 sm:py-4 ml-4">
-            Contact
+          <button
+            className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-12"
+          
+          >
+             <a href="mailto:info@nero.solutions">Contact</a>
           </button>
         </div>
+
       </div>
     </>
   );
