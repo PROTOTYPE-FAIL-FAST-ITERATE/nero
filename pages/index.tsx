@@ -71,9 +71,9 @@ const Home: NextPage = () => {
 
           <div className="flex flex-col sm:flex-row place-items-center sm:justify-center sm:space-x-8 gap-y-12 sm:gap-y-0">
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw] ">
-              <div className="flex flex-col place-content-evenly px-16">
+              <div className="flex flex-col pt-16 px-16">
                 <p className="inter text-4xl font-bold sm:text-6xl">$799</p>
-                <p className="inter font-light text-l sm:text-2xl">
+                <p className="inter font-light text-l sm:text-2xl pt-8">
                   Delivery Time
                   <br></br>- Under 2 weeks
                   <br></br>
@@ -87,15 +87,15 @@ const Home: NextPage = () => {
             </div>
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-24">
-              <div className="flex flex-col place-content-evenly px-16">
+              <div className="flex flex-col pt-16 px-16">
                 <p className="inter text-4xl font-bold sm:text-6xl">$1299</p>
-                <p className="inter font-light text-l sm:text-2xl">
+                <p className="inter font-light text-l sm:text-2xl pt-8">
                   Delivery Time
                   <br></br>- Under 1 week
                   <br></br>
                   Perks
                   <br></br>- Up to 3 Website Pages
-                  <br></br>- Lifetime Site Maintenance
+                  <br></br>- Lifetime Maintenance
                   <br></br>- Advanced SEO
                   <br></br>
                   <br></br>
@@ -105,11 +105,11 @@ const Home: NextPage = () => {
             </div>
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-48">
-              <div className="flex flex-col place-content-evenly px-16">
+              <div className="flex flex-col pt-16 px-16">
                 <p className="inter text-4xl font-bold sm:text-6xl">
                   Contact For Price
                 </p>
-                <p className="inter font-light text-l sm:text-2xl">
+                <p className="inter font-light text-l sm:text-2xl pt-8">
                   Delivery Time
                   <br></br>- Upon further discussion
                   <br></br>
