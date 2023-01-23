@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { Link, animateScroll as scroll } from "react-scroll"; /// FIX THIS TODO
 
 // TODO
 // - USE VIEWPORT VALUES FOR MORE RESPONSIVENESS
@@ -8,7 +9,11 @@ import Image from "next/image";
 // PADDING IS INNER SPACING FOR CHILD ELEMENTS -> DECLARE IN PARENT
 // MARGIN IS OUTER SPACING FOR PARENT -> DECLARE IN PARENT
 
+
+  
+
 const Home: NextPage = () => {
+  
   return (
     <>
       <div className="flex flex-col items-center justify-center overflow-hidden">
@@ -27,15 +32,18 @@ const Home: NextPage = () => {
               <img src="Group 10.png" width={80} height={100} />
             </div>
             <div className="flex space-x-4 sm:space-x-8">
-              <div className="hover:underline">Pricing</div>
-              <div className="hover:underline">About</div>
-              <div className="hover:underline">FAQ</div>
-              <div className="hover:underline">Careers</div>
+              <Link to="pricing" className="hover:underline cursor-pointer">Pricing</Link>
+              <Link to="about" className="hover:underline cursor-pointer">About</Link>
+              <Link to="faq" className="hover:underline cursor-pointer">FAQ</Link>
+              <Link to="careers" className="hover:underline cursor-pointer">Careers</Link>
             </div>
           </div>
 
-          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-10">
-            Contact
+          <button
+            className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-12"
+          
+          >
+             <a href="mailto:info@nero.solutions">Contact</a>
           </button>
         </div>
 
@@ -55,7 +63,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-36 sm:pt-44 min-w-full pb-44">
+        <div className="pricing pt-36 sm:pt-44 min-w-full pb-44">
           <div className="strip h-[200vh] sm:h-1150px" />
           <a className="inter font-semibold flex justify-center italiana text-3xl sm:text-6xl text-white pb-16 sm:pb-10 pt-16 sm:pt-24">
             Pricing
@@ -66,42 +74,58 @@ const Home: NextPage = () => {
               <div className="flex flex-col place-content-evenly px-16">
                 <p className="inter text-4xl font-bold sm:text-6xl">$799</p>
                 <p className="inter font-light text-l sm:text-2xl">
-                  Delivery Time 
+                  Delivery Time
+                  <br></br>- Under 2 weeks
                   <br></br>
-                  - Under 2 weeks 
+                  Perks
+                  <br></br>- 1 custom landing page
                   <br></br>
-                  - Single landing page.
+                  <br></br>
+                  Our standard tier. Initial $100 deposit.
                 </p>
               </div>
             </div>
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-24">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="inter text-4xl font-bold sm:text-6xl">$1199</p>
+                <p className="inter text-4xl font-bold sm:text-6xl">$1299</p>
                 <p className="inter font-light text-l sm:text-2xl">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris.{" "}
+                  Delivery Time
+                  <br></br>- Under 1 week
+                  <br></br>
+                  Perks
+                  <br></br>- Up to 3 Website Pages
+                  <br></br>- Lifetime Site Maintenance
+                  <br></br>- Advanced SEO
+                  <br></br>
+                  <br></br>
+                  Our most popular tier. No initial deposit.
                 </p>
               </div>
             </div>
 
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-48">
               <div className="flex flex-col place-content-evenly px-16">
-                <p className="inter text-4xl font-bold sm:text-6xl">$1749</p>
+                <p className="inter text-4xl font-bold sm:text-6xl">
+                  Contact For Price
+                </p>
                 <p className="inter font-light text-l sm:text-2xl">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris.{" "}
+                  Delivery Time
+                  <br></br>- Upon further discussion
+                  <br></br>
+                  Perks
+                  <br></br>- Login portals, membership sites, admin panels,
+                  online stores
+                  <br></br>
+                  <br></br>
+                  Book a consultation with us for more information.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-16 sm:mt-52">
+        <div className="about mt-16 sm:mt-52">
           <a className="inter font-semibold flex justify-center text-center text-3xl sm:text-6xl pb-12 sm:pb-24">
             About Our Founders
           </a>
@@ -139,24 +163,25 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pt-12 sm:pt-24">
+        <div className="faq pt-12 sm:pt-24">
           <h1 className="inter font-semibold flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-24">
             FAQ
           </h1>
           <div className="flex flex-row justify-center">
             <p className="inter font-light text-l sm:text-2xl w-9/12 sm:w-5/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              Talk about how we specialize in landing pages? consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum
             </p>
           </div>
         </div>
 
-        <div className="pt-12 sm:pt-24 pb-32 sm:pb-48">
+        <div className="careers pt-12 sm:pt-24 pb-32 sm:pb-48">
           <h1 className="inter font-semibold flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-14">
             Careers at Nero
           </h1>
