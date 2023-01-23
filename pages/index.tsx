@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                 About
               </Link>
               <Link to="faq" className="hover:underline cursor-pointer">
-                FAQ
+                Philosophy
               </Link>
               <Link to="careers" className="hover:underline cursor-pointer">
                 Careers
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-12">
+          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-8">
             <a href="mailto:info@nero.solutions">Contact</a>
           </button>
         </div>
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
               Your Dream Website.
             </a>
             <a className="inter font-medium text-l text-center sm:text-left sm:text-2xl sm:ml-6">
-              Empower your business. Give it a <br /> second home, today.{" "}
+              We specialize in making landing pages. <br /> Just like this one.{" "}
             </a>
             <div className="flex justify-center sm:justify-start">
               <button className="glassyButton inter font-semibold rounded-full text-white border-2 border-white text-l sm:text-xl sm:ml-6 py-3 sm:py-4 w-44 sm:w-52 hover:bg-white hover:text-black">
@@ -89,7 +89,7 @@ const Home: NextPage = () => {
                 <p className="inter text-4xl font-bold sm:text-6xl">$1299</p>
                 <p className="inter font-light text-l sm:text-2xl pt-8">
                   - Under 1 week
-                  <br></br>- Up to 3 Website Pages
+                  <br></br>- Up to 5 Website Pages
                   <br></br>- Lifetime Maintenance
                   <br></br>- Advanced SEO
                   <br></br>
@@ -102,10 +102,11 @@ const Home: NextPage = () => {
             <div className="flex glassy h-[50vh] w-[80vw] sm:h-[60vh] sm:w-[23vw]  sm:mt-48">
               <div className="flex flex-col pt-16 sm:pt-24 px-16">
                 <p className="inter text-4xl font-bold sm:text-6xl">
-                  Contact For Price
+                  Contact<br></br>For Price
                 </p>
                 <p className="inter font-light text-l sm:text-2xl pt-8">
-                  Login portals, membership sites, admin panels, online stores
+                  Login portals, membership sites, admin panels, online
+                  stores...
                   <br></br>
                   <br></br>
                   Book a consultation with us for more information.
@@ -155,18 +156,17 @@ const Home: NextPage = () => {
 
         <div className="faq pt-12 sm:pt-24">
           <h1 className="inter font-semibold flex justify-center italiana text-3xl sm:text-6xl pb-12 sm:pb-24">
-            FAQ
+            Philosophy
           </h1>
           <div className="flex flex-row justify-center">
             <p className="inter font-light text-l sm:text-2xl w-9/12 sm:w-5/12">
-              Talk about how we specialize in landing pages? consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in culpa qui officia
-              deserunt mollit anim id est laborum
+              Many in-house website building agencies are known for overcharging
+              their clients for the services they provide. At Nero, we believe
+              in transparency and strive to provide our clients with the best
+              value for their money. We understand that the cost of building a
+              website can be overwhelming for small businesses, which is why we
+              offer our standard website building package at an unbeatable price
+              of $799. In comparison to most agencies which can charge up to tens of thousands of dollars, we deliver a better value for a fraction of the cost. 
             </p>
           </div>
         </div>
@@ -188,21 +188,25 @@ const Home: NextPage = () => {
               <img src="Group 10.png" width={80} height={100} />
             </div>
             <div className="flex space-x-4 sm:space-x-8">
-              <Link to="pricing" className="hover:underline cursor-pointer">Pricing</Link>
-              <Link to="about" className="hover:underline cursor-pointer">About</Link>
-              <Link to="faq" className="hover:underline cursor-pointer">FAQ</Link>
-              <Link to="careers" className="hover:underline cursor-pointer">Careers</Link>
+              <Link to="pricing" className="hover:underline cursor-pointer">
+                Pricing
+              </Link>
+              <Link to="about" className="hover:underline cursor-pointer">
+                About
+              </Link>
+              <Link to="faq" className="hover:underline cursor-pointer">
+                FAQ
+              </Link>
+              <Link to="careers" className="hover:underline cursor-pointer">
+                Careers
+              </Link>
             </div>
           </div>
 
-          <button
-            className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-12"
-          
-          >
-             <a href="mailto:info@nero.solutions">Contact</a>
+          <button className="inter font-semibold rounded-full bg-black text-white py-2 px-4 sm:px-12 sm:py-4 ml-12">
+            <a href="mailto:info@nero.solutions">Contact</a>
           </button>
         </div>
-
       </div>
     </>
   );
